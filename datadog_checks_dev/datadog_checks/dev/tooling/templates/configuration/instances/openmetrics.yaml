@@ -286,5 +286,11 @@
   value:
     example: false
     type: boolean
+- name: telemetry
+  description: |
+    Whether or not to submit metrics prefixed by `<NAMESPACE>.telemetry.` for debugging purposes.
+  value:
+    example: false
+    type: boolean
 - template: instances/http
 - template: instances/default
